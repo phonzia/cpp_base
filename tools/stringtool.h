@@ -134,7 +134,7 @@ double strToFloat(const std::string &source);
 /// @参数    value
 ///
 /// @返回值   转换后的字符串
-std::string intToStr(const long &value);
+std::string intToStr(const long long &value);
 
 /// @简介    根据所给出精度转换浮点数为字符串
 ///

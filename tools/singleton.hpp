@@ -5,7 +5,7 @@
 #include <cassert>
 #include <type_traits>
 
-namespace modern_utils {
+namespace cppbase{
 template <typename T>
 class Singleton {
 public:
