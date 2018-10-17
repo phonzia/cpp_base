@@ -1,9 +1,11 @@
-cmake_minimum_required(VERSION 2.8.4)
-project(cpp_base)
+cmake_minimum_required(VERSION 3.12)
+set (CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../cmake")
+
+project(cppbase VERSION 1.0
+        DESCRIPTION "user system of blog"
+        LANGUAGES CXX)
 
 include_directories(tools)
-
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall")
 
 set(HEADERS cppbase.h
             tools/cppassert.h
